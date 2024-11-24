@@ -1,0 +1,25 @@
+# Go binary and build output
+/bin/
+/obj/
+
+# Dependency directories (Go modules)
+/vendor/
+
+# Go specific
+*.test
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE files (for example, VSCode, JetBrains, etc.)
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# GoLand IDE specific files
+*.iml
