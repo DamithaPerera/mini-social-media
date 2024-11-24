@@ -35,6 +35,17 @@ A backend RESTful API for a mini social media application using Go and Gin.
 2. Implement user authentication.
 3. Add pagination for large datasets.
 
+
 ## Postman Collection
 
 https://documenter.getpostman.com/view/9463833/2sAYBUDY8v
+
+
+## Building the Docker Image
+
+
+docker build -t mini-social-media .
+
+## Run the Docker Container:
+
+docker run -p 8080:8080 mini-social-media
